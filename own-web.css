@@ -604,7 +604,6 @@ span {
     position: absolute;
     cursor: pointer;
     right: 4%;
-    top: 12px;
   }
   .line {
     width: 33px;
@@ -616,7 +615,7 @@ span {
   .header-1 {
     position: absolute;
     top: 0%;
-    height: 100%;
+    margin-top: 8px;
     width: 100%;
     border: none;
     border-radius: 10px;
