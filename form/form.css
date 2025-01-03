@@ -202,3 +202,9 @@ body {
 .selectAndDate select option {
   padding: 10px;
 } 
+
+@media only screen and (max-width: 768px) {
+  .form{
+    margin: 100px 10px;
+  }
+}
