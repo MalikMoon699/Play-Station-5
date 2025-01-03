@@ -351,27 +351,27 @@ span {
   box-shadow: 0 1rem 1rem 0 #32475a8a;
 }
 .card-new-1 {
-  background: url(../assets/game15.jpg);
+  background: url(./assets/game15.jpg);
   background-size: cover;
 }
 .card-new-2 {
-  background: url(../assets/game1.png);
+  background: url(./assets/game1.png);
   background-size: cover;
 }
 .card-new-3 {
-  background: url(../assets/game4.jpg);
+  background: url(./assets/game4.jpg);
   background-size: cover;
 }
 .card-new-4 {
-  background: url(../assets/game3.jpg);
+  background: url(./assets/game3.jpg);
   background-size: cover;
 }
 .card-new-5 {
-  background: url(../assets/game11.jpg);
+  background: url(./assets/game11.jpg);
   background-size: cover;
 }
 .card-new-6 {
-  background: url(../assets/game5.jpg);
+  background: url(./assets/game5.jpg);
   background-size: cover;
 }
 .card-new-7 {
@@ -379,15 +379,15 @@ span {
   background-size: cover;
 }
 .card-new-8 {
-  background: url(../assets/game7.jpg);
+  background: url(./assets/game7.jpg);
   background-size: cover;
 }
 .card-new-9 {
-  background: url(../assets/game8.jpg);
+  background: url(./assets/game8.jpg);
   background-size: cover;
 }
 .card-new-10 {
-  background: url(../assets/game9.jpg);
+  background: url(./assets/game9.jpg);
   background-size: cover;
 }
 .background-8 {
