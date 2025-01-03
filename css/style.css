@@ -153,7 +153,7 @@ span {
 }
 
 .background-1 {
-  background: url(./assets/header24.jpeg);
+  background: url(../assets/header24.jpeg);
   background-size: cover;
   justify-content: start;
   background-position: right;
@@ -211,7 +211,7 @@ span {
 }
 
 .onlineGamesSection {
-  background: url(./assets/Cheader11.jpg);
+  background: url(../assets/Cheader11.jpg);
   background-size: cover;
   height: auto;
 }
@@ -255,15 +255,15 @@ span {
   box-shadow: 0 1rem 1rem 0 #3d71a136;
 }
 .add-card-one {
-  background: url(./assets/card1.jpg);
+  background: url(../assets/card1.jpg);
   background-size: cover;
 }
 .add-card-two {
-  background: url(./assets/card3.jpg);
+  background: url(../assets/card3.jpg);
   background-size: cover;
 }
 .add-card-three {
-  background: url(./assets/card2.jpg);
+  background: url(../assets/card2.jpg);
   background-size: cover;
 }
 .background-4 {
@@ -291,7 +291,7 @@ span {
   width: 54vw;
 }
 .background-7 {
-  background: url(./assets/header20.jpg);
+  background: url(../assets/header20.jpg);
 }
 .background-7::before {
   content: "";
@@ -351,43 +351,43 @@ span {
   box-shadow: 0 1rem 1rem 0 #32475a8a;
 }
 .card-new-1 {
-  background: url(./assets/game15.jpg);
+  background: url(../assets/game15.jpg);
   background-size: cover;
 }
 .card-new-2 {
-  background: url(./assets/game1.png);
+  background: url(../assets/game1.png);
   background-size: cover;
 }
 .card-new-3 {
-  background: url(./assets/game4.jpg);
+  background: url(../assets/game4.jpg);
   background-size: cover;
 }
 .card-new-4 {
-  background: url(./assets/game3.jpg);
+  background: url(../assets/game3.jpg);
   background-size: cover;
 }
 .card-new-5 {
-  background: url(./assets/game11.jpg);
+  background: url(../assets/game11.jpg);
   background-size: cover;
 }
 .card-new-6 {
-  background: url(./assets/game5.jpg);
+  background: url(../assets/game5.jpg);
   background-size: cover;
 }
 .card-new-7 {
-  background: url(./assets/game6.jpg);
+  background: url(../assets/game6.jpg);
   background-size: cover;
 }
 .card-new-8 {
-  background: url(./assets/game7.jpg);
+  background: url(../assets/game7.jpg);
   background-size: cover;
 }
 .card-new-9 {
-  background: url(./assets/game8.jpg);
+  background: url(../assets/game8.jpg);
   background-size: cover;
 }
 .card-new-10 {
-  background: url(./assets/game9.jpg);
+  background: url(../assets/game9.jpg);
   background-size: cover;
 }
 .background-8 {
@@ -407,7 +407,7 @@ span {
   font-size: 25px;
 }
 .latestGames {
-  background: url(./assets/header28.jpg);
+  background: url(../assets/header28.jpg);
   background-size: cover;
   height: 70vh;
 }
@@ -473,19 +473,19 @@ span {
   flex-wrap: wrap;
 }
 .service-card-1 {
-  background: url(./assets/service1.jpg);
+  background: url(../assets/service1.jpg);
   background-size: cover;
 }
 .service-card-2 {
-  background: url(./assets/service4.jpg);
+  background: url(../assets/service4.jpg);
   background-size: cover;
 }
 .service-card-3 {
-  background: url(./assets/service3.jpg);
+  background: url(../assets/service3.jpg);
   background-size: cover;
 }
 .offerSection {
-  background: url(./assets/banner8.jpg);
+  background: url(../assets/banner8.jpg);
   background-size: cover;
 }
 .offerSectionContainer {
