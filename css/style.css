@@ -48,7 +48,12 @@ span {
   color: white;
   font-size: 20px;
 }
-
+.text-small-6 {
+  font-weight: 300;
+  letter-spacing: 3px;
+  color: #cec8bf;
+  font-size: 20px;
+}
 .header-1 {
   display: flex;
   justify-content: center;
@@ -787,7 +792,7 @@ span {
     row-gap: 9px;
   }
   .eight-page img {
-    width: 284px;
+    width: 272px;
     margin-bottom: -12px;
   }
   .background-5 {
