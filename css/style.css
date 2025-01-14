@@ -310,6 +310,7 @@ span {
 }
 .background-7 {
   background: url(../assets/header20.jpg);
+  background-size: cover;
 }
 .background-7::before {
   content: "";
