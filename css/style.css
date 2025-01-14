@@ -38,6 +38,19 @@ h6 {
   font-size: 30px;
   color: rgb(0, 0, 0);
 }
+h5 {
+  font-size: 30px;
+  color: whitesmoke;
+  position: relative;
+  z-index: 1000;
+}
+.releaseCards p{
+  font-size: 13px;
+color: whitesmoke;
+  width: 70%;
+  position: relative;
+  z-index: 1000;
+}
 p {
   font-size: 13px;
   color: rgb(0, 0, 0);
@@ -331,6 +344,24 @@ span {
     rgba(153, 153, 153, 1) 100%
   );
   padding: 40px 0px;
+}
+
+.background-5:hover {
+  .releaseCards::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(
+      to bottom,
+      rgba(35, 34, 34, 0.339) 30%,
+      rgba(24, 24, 23, 0.244) 80%
+    );
+    z-index: 0;
+    pointer-events: none;
+  }
 }
 .parentCardDiv {
   margin-top: 50px;
@@ -866,48 +897,3 @@ span {
     right: -25%;
   }
 }
-
-/* @media only screen and (max-width: 425px) {
-  .add-card-one {
-    margin-left: 0px;
-  }
-}
-
-@media only screen and (max-width: 375px) {
-  .add-card-one {
-    height: 176px;
-    width: 311px;
-  }
-  .add-card-two {
-    height: 176px;
-    width: 311px;
-  }
-  .add-card-three {
-    height: 176px;
-    width: 311px;
-  }
-}
-
-@media only screen and (max-width: 320px) {
-  .background {
-    background-position: -743px;
-  }
-  .add-card-one {
-    height: 164px;
-    width: 292px;
-  }
-  .add-card-two {
-    height: 164px;
-    width: 292px;
-  }
-  .add-card-three {
-    height: 164px;
-    width: 292px;
-  }
-  .parentCardDiv {
-    flex-direction: column;
-  }
-  .parentContainer {
-    margin-left: -8px;
-  }
-} */
