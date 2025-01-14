@@ -44,9 +44,9 @@ h5 {
   position: relative;
   z-index: 1000;
 }
-.releaseCards p{
+.releaseCards p {
   font-size: 13px;
-color: whitesmoke;
+  color: whitesmoke;
   width: 70%;
   position: relative;
   z-index: 1000;
@@ -311,6 +311,7 @@ span {
 .background-7 {
   background: url(../assets/header20.jpg);
   background-size: cover;
+  background-repeat: no-repeat;
 }
 .background-7::before {
   content: "";
