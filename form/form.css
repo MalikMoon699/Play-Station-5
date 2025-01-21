@@ -1,210 +1,138 @@
-@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@500&family=Poppins:wght@600&display=swap");
-
-* {
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+:root{
+  --accent-color: #8672FF;
+  --base-color: white;
+  --text-color: #2E2B41;
+  --input-color: #F3F0FF;
+}
+*{
   margin: 0;
   padding: 0;
+}
+html{
+  font-family: Poppins, Segoe UI, sans-serif;
+  font-size: 12pt;
+  color: var(--text-color);
+  text-align: center;
+}
+
+ body {
+  height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(255, 255, 255, 1) 0%, rgba(0, 212, 255, 1) 100%);
+}
+.wrapper{
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
-}
-
-body {
+  background-color: var(--base-color);
+  height: 70vh;
+  width: max(40%, 600px);
+  padding: 10px;
+  border-radius: 0 20px 20px 0;
   display: flex;
-  align-items: center;
-  justify-content: center;
-  background: linear-gradient(
-    90deg,
-    rgba(2, 0, 36, 1) 0%,
-    rgba(255, 255, 255, 1) 0%,
-    rgba(0, 212, 255, 1) 100%
-  );
-}
-
-.input-box label {
-  font-size: 14px;
-}
-
-.input-box input {
-  margin-bottom: 10px;
-}
-
-.form {
-  width: 440px;
-  margin: 100px;
-  height: 600px;
-  background: #fff;
-  padding: 34px;
-  border-radius: 6px;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-  overflow: auto;
-}
-
-.sign-text {
-  padding-bottom: 10px;
-}
-
-.text {
-  padding: 7px;
-  border-radius: 6px;
-  font-size: 12px;
-  border: 1.5px solid #c7bebe;
-  width: 100%;
-}
-.commentSection label {
-  font-size: 14px;
-}
-
-.commentSection textarea {
-  max-width: 100%;
-  min-width: -webkit-fill-available;
-  border-radius: 6px;
-  font-size: 12px;
-  border: 1.5px solid #c7bebe;
-}
-
-.check-box {
-  padding: 10px 0px;
-}
-
-.check-box label {
-  font-size: 14px;
-}
-
-.checks {
-  padding-top: 5px;
-  display: flex;
-  justify-content: center;
-  align-items: start;
   flex-direction: column;
-}
-
-.genderChecks {
-  display: flex;
   align-items: center;
-}
-
-.gender {
-  padding-right: 20px;
-}
-.male {
-  padding-right: 10px;
-  padding-left: 10px;
-}
-.female {
-  padding-right: 10px;
-  padding-left: 10px;
-}
-
-.selectAndDate {
-  padding: 20px 0px;
-}
-
-.selectAndDate > div:first-child {
-  background-color: #f0f0f0;
-  padding: 14px;
-  border: 1px solid #ccc;
-  border-radius: 6px;
-}
-
-.selectAndDate > div:nth-child(2) {
-  background-color: #f0f0f0;
-  padding: 14px;
-  border: 1px solid #ccc;
-}
-
-#commenet {
-  padding: 6px;
-}
-
-.sign-up {
-  display: flex;
   justify-content: center;
-  align-items: center;
 }
-
-.sign-up button {
-    text-decoration: none;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 50px;
-  background-color: orangered;
-  color: whitesmoke;
-  cursor: pointer;
-  transition: 0.2s all ease-in-out;
-  margin: 10px 0px;
+h1{
+  font-size: 3rem;
+  font-weight: 900;
+  text-transform: uppercase;
 }
-
-.sign-up button:hover {
-  background-color: rgb(250, 125, 79);
-}
-.sign-up a{
-  text-decoration: none;
-}
-
-.privacy {
+form{
+  width: min(400px, 100%);
+  margin-top: 20px;
+  margin-bottom: 50px;
   display: flex;
+  flex-direction: column;
   align-items: center;
   gap: 10px;
-  padding-top: 20px;
-  padding-bottom: 20px;
 }
-
-.privacy label {
-  font-size: 12px;
+form > div{
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
-
-.accountCheck {
-  padding-top: 20px;
+form label{
+  flex-shrink: 0;
+  height: 50px;
+  width: 50px;
+  background-color: var(--accent-color);
+  fill: var(--base-color);
+  color: var(--base-color);
+  border-radius: 10px 0 0 10px;
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 1.5rem;
+  font-weight: 500;
 }
-
-.accountCheck p {
-  font-size: 12px;
+form input{
+  box-sizing: border-box;
+  flex-grow: 1;
+  min-width: 0;
+  height: 50px;
+  padding: 1em;
+  font: inherit;
+  border-radius: 0 10px 10px 0;
+  border: 2px solid var(--input-color);
+  border-left: none;
+  background-color: var(--input-color);
+  transition: 150ms ease;
 }
-.selectAndDate {
-  display: flex;
-  flex-direction: column;
-  gap: 20px; 
-  max-width: 400px; 
-  margin: 20px auto;
-  font-family: Arial, sans-serif;
+form input:hover{
+  border-color: var(--accent-color);
 }
-
-.selectAndDate h3 {
-  margin: 0 0 5px 0;
-  font-size: 16px;
-  color: #333;
+form input:focus{
+  outline: none;
+  border-color: var(--text-color);
 }
-
-.selectAndDate input[type="date"],
-.selectAndDate select {
-  width: 100%; 
-  padding: 10px; 
-  font-size: 14px;
-  border: 1px solid #ccc; 
-  border-radius: 5px; 
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  transition: border 0.3s ease;
+div:has(input:focus) > label{
+  background-color: var(--text-color);
 }
-.selectAndDate input[type="date"]:focus,
-.selectAndDate select:focus {
-  border-color: #007bff; 
-  outline: none; 
-  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+form input::placeholder{
+  color: var(--text-color);
 }
-
-.selectAndDate select {
-  background-color: #fff; 
+form button{
+  margin-top: 10px;
+  border: none;
+  border-radius: 1000px;
+  padding: .85em 4em;
+  background-color: var(--accent-color);
+  color: var(--base-color);
+  font: inherit;
+  font-weight: 600;
+  text-transform: uppercase;
   cursor: pointer;
+  transition: 150ms ease;
 }
-
-.selectAndDate select option {
-  padding: 10px;
-} 
-
-@media only screen and (max-width: 768px) {
-  .form{
-    margin: 100px 10px;
+form button:hover{
+  background-color: var(--text-color);
+}
+form button:focus{
+  outline: none;
+  background-color: var(--text-color);
+}
+a{
+  text-decoration: none;
+  color: var(--accent-color);
+}
+a:hover{
+  text-decoration: underline;
+}
+@media(max-width: 1100px){
+  .wrapper{
+    width: min(600px, 100%);
+    border-radius: 0;
   }
+}
+form div.incorrect label{
+  background-color: #f06272;
+}
+form div.incorrect input{
+  border-color: #f06272;
+}
+#error-message{
+  color:#f06272;
 }
