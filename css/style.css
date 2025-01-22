@@ -42,14 +42,14 @@ h5 {
   font-size: 30px;
   color: whitesmoke;
   position: relative;
-  z-index: 1000;
+  z-index: 999;
 }
 .releaseCards p {
   font-size: 13px;
   color: whitesmoke;
   width: 70%;
   position: relative;
-  z-index: 1000;
+  z-index: 999;
 }
 p {
   font-size: 13px;
