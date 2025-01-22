@@ -50,3 +50,16 @@ setInterval(function () {
   currentTime = getDateTime();
   document.getElementById("time").innerHTML = currentTime;
 }, 1000);
+
+document.addEventListener("DOMContentLoaded", () => {
+  const innerContainer = document.querySelector(".innerContainer-1");
+  const clear = document.querySelector(".cross");
+
+  setTimeout(() => {
+    innerContainer.hidden = false;
+  }, 5000);
+
+  clear.addEventListener("click", () => {
+    innerContainer.hidden = true;
+  });
+});
