@@ -11,10 +11,35 @@ body {
   font-size: 15px;
   font-weight: 300;
   column-gap: 20px;
+  cursor: none;
 }
+
+.curserDot{
+    background-color: #e9e8e8;
+    height: 5px;
+    width: 5px;
+}
+.curserOutline{
+    height: 30px;
+    width: 30px;
+    border: 2px solid  #e9e8e8;
+}
+
+.curserDot,
+.curserOutline{
+    position: fixed;
+    top: 0;
+    left: 0;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    z-index: 10000;
+    pointer-events: none;
+}
+
 html {
   scroll-behavior: smooth;
 }
+
 button {
   font-size: 15px;
   color: whitesmoke;
@@ -23,7 +48,7 @@ button {
   border-radius: 50px;
   transition: all 0.3s ease 0s;
   padding: 10px 12px 10px 12px;
-  cursor: pointer;
+   cursor: none;
   text-decoration: none;
 }
 button:hover {
@@ -104,6 +129,7 @@ span {
 }
 .navchild:hover {
   color: red;
+  cursor: none;
 }
 
 .sign-button {
@@ -148,7 +174,7 @@ span {
   color: white;
 }
 .cross {
- cursor: pointer;
+  cursor: none;
   transform: rotate(45deg);
   color: #868686;
   position: absolute;
@@ -301,7 +327,7 @@ span {
   flex-direction: row;
 }
 .line-1 {
-  cursor: pointer;
+  cursor: none;
   height: 100px;
   width: 200px;
   border: none;
@@ -346,7 +372,7 @@ span {
   row-gap: 20px;
 }
 .card-same {
-  cursor: pointer;
+  cursor: none;
   height: 210px;
   width: 365px;
   border: none;
@@ -462,7 +488,7 @@ span {
   flex-wrap: wrap;
 }
 .gamesCards {
-  cursor: pointer;
+   cursor: none;
   height: 200px;
   width: 170px;
   border: none;
@@ -577,7 +603,7 @@ span {
   height: auto;
 }
 .services {
-  cursor: pointer;
+  cursor: none;
   height: 360px;
   width: 360px;
   border: none;
@@ -639,7 +665,7 @@ span {
   width: 150px;
   height: 100px;
   transition: all 0.5s ease 0s;
-  cursor: pointer;
+  cursor: none;
   padding-right: 50px;
 }
 .social-same:hover {
@@ -725,7 +751,7 @@ span {
   .burger {
     display: none;
     position: absolute;
-    cursor: pointer;
+  cursor: none;
     right: 4%;
   }
   .line {
