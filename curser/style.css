@@ -1,0 +1,32 @@
+body {
+  cursor: none;
+}
+
+.curserDot {
+  background-color: #ff0000;
+  height: 5px;
+  width: 5px;
+}
+.curserOutline {
+  height: 30px;
+  width: 30px;
+  border: 2px solid #ff0000;
+}
+
+.curserDot,
+.curserOutline {
+  position: fixed;
+  top: 0;
+  left: 0;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  z-index: 10000;
+  pointer-events: none;
+}
+
+a:hover {
+  .curserDot {
+    height: 30px;
+    width: 30px;
+  }
+}

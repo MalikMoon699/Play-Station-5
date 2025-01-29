@@ -16,28 +16,6 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 });
 
-// Curser
-
-const curserDot = document.querySelector("[dataCurserDot]");
-const curserOutline = document.querySelector("[dataCurserOutline]");
-
-window.addEventListener("mousemove", (e) => {
-  const posX = e.clientX;
-  const posY = e.clientY;
-
-  curserDot.style.left = `${posX}px`;
-  curserDot.style.top = `${posY}px`;
-
-  curserOutline.animate(
-    {
-      left: `${posX}px`,
-      top: `${posY}px`,
-    },
-    { duration: 500, fill: "forwards" }
-  );
-});
-
-
 // Time
 
 function getDateTime() {

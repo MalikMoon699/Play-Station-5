@@ -11,6 +11,10 @@ body {
   color: whitesmoke;
 }
 
+a{
+  cursor: none;
+}
+
 button {
   font-weight: 900;
   font-size: 14px;
@@ -21,7 +25,7 @@ button {
   border-radius: 50px;
   transition: all 0.3s ease 0s;
   padding: 6px 70px;
-  cursor: pointer;
+  cursor: none;
 }
 
 button:hover {
@@ -152,7 +156,7 @@ span {
   border: none;
   border-radius: 50px;
   transition: all 0.3s ease 0s;
-  cursor: pointer;
+cursor: none;
 }
 .signInBtn a {
   background-color: black;
@@ -203,7 +207,7 @@ span {
   list-style: none;
   font-size: 17px;
   color: black;
-  cursor: pointer;
+cursor: none;
 }
 .buynow a {
   color: whitesmoke;
@@ -214,7 +218,7 @@ span {
   background-color: orangered;
   border-radius: 1px;
   padding: 5px 10px;
-  cursor: pointer;
+cursor: none;
 }
 
 .buynow:hover {
@@ -389,7 +393,7 @@ span {
 .galleryContainer img {
   border-radius: 15px;
   transition: all 0.25s ease 0s;
-  cursor: pointer;
+cursor: none;
   object-fit: cover;
 }
 
@@ -470,7 +474,7 @@ span {
   .burger {
     display: none;
     position: absolute;
-    cursor: pointer;
+cursor: none;
     right: 4%;
     top: 12px;
   }
