@@ -23,10 +23,3 @@ body {
   z-index: 10000;
   pointer-events: none;
 }
-
-a:hover {
-  .curserDot {
-    height: 30px;
-    width: 30px;
-  }
-}

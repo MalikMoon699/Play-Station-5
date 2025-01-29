@@ -27,18 +27,12 @@ document.querySelectorAll("a").forEach((link) => {
     cursorDot.style.opacity = "0.3";
     cursorDot.style.width = "30px";
     cursorDot.style.height = "30px";
-  });
-  
-  link.addEventListener("mouseleave", () => {
-    cursorDot.style.width = "5px";
-    cursorDot.style.height = "5px";
-  });
-  
-  link.addEventListener("mouseenter", () => {
     cursorOutline.style.opacity = "0";
   });
   
   link.addEventListener("mouseleave", () => {
     cursorOutline.style.opacity = "1";
+    cursorDot.style.width = "5px";
+    cursorDot.style.height = "5px";
   });
 });
